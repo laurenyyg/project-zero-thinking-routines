@@ -1,0 +1,6 @@
+{
+  "name": "Project Zero Thinking Routines Explorer",
+  "description": "Interactive Harvard Project Zero thinking routines advisor, step-by-step facilitator, and practice tracker styled in clean Bauhaus and De Stijl aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

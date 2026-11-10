@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FFFFFF;
+    color: #111111;
+  }
+}
+
+/* De Stijl & Bauhaus Custom Utilities */
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Sharp orthogonal grid frames */
+.destijl-border {
+  border: 2px solid #111111;
+}
+
+.destijl-border-thick {
+  border: 3px solid #111111;
+}
+
+.destijl-border-b {
+  border-bottom: 2px solid #111111;
+}
+
+.destijl-border-r {
+  border-right: 2px solid #111111;
+}
+
+/* Architectural Button Hover States */
+.destijl-btn-yellow {
+  background-color: #FFD000;
+  color: #111111;
+  border: 2px solid #111111;
+  font-weight: 700;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.destijl-btn-yellow:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+.destijl-btn-yellow:active {
+  transform: translate(0, 0);
+  box-shadow: 0 0 0 #111111;
+}
+
+.destijl-btn-black {
+  background-color: #111111;
+  color: #FFFFFF;
+  border: 2px solid #111111;
+  font-weight: 700;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.destijl-btn-black:hover {
+  background-color: #0047AB;
+  border-color: #111111;
+  transform: translate(-2px, -2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+.destijl-btn-black:active {
+  transform: translate(0, 0);
+  box-shadow: 0 0 0 #111111;
+}
+
+.destijl-btn-white {
+  background-color: #FFFFFF;
+  color: #111111;
+  border: 2px solid #111111;
+  font-weight: 700;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.destijl-btn-white:hover {
+  background-color: #F4F4F5;
+  transform: translate(-2px, -2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+.destijl-btn-white:active {
+  transform: translate(0, 0);
+  box-shadow: 0 0 0 #111111;
+}
